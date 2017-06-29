@@ -78,31 +78,20 @@ body {
   #header-image {
     height: 250px;
     margin-bottom: 10px; }
+    #header-image .main-title {
+      margin-bottom: 10px; }
 
   #main .flex-container {
     -webkit-flex-direction: column;
     flex-direction: column;
-    margin: 0 30px; }
+    margin: 0 20px; }
   #main .box-min {
-    width: 50%;
+    width: 100%;
     margin-bottom: 20px; }
 
   #footer {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 1.4em;
-    background-color: #8ecaf2; }
-    #footer .foot-text {
-      padding: 10px; }
+    margin-top: 0; }
     #footer .button {
-      display: inline-block;
-      width: 150px;
-      background-color: #fdfcf6;
-      margin: 0 0 30px 0;
-      padding: 10px;
-      -moz-border-radius: 3px;
-      -webkit-border-radius: 3px;
-      border-radius: 3px;
-      font-weight: bold; } }
+      width: 300px; } }
 
 /*# sourceMappingURL=style.css.map */
