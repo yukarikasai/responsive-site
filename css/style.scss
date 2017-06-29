@@ -107,6 +107,11 @@ url("../images/img-main.jpg");
 // Mobile
 @media (max-width: 768px) {
     
+#header-image {
+    height: 250px;
+    margin-bottom: 10px;
+}
+
     // main
 #main {
     
@@ -116,10 +121,32 @@ url("../images/img-main.jpg");
     }
     
         .box-min {
-            width: 100%;
+            width: 50%;
             margin-bottom: 20px;
         }
     }
+
+#footer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #8ecaf2;
+    
+    .foot-text {
+        padding: 10px;  
+    }
+    
+    .button { 
+        display: inline-block;
+        width : 150px;
+        background-color: $baseColor;
+        margin: 0 0 30px 0;
+        padding: 10px;
+        @include border-radius(3px);
+        font-weight: bold;
+        
+    }
+}
 
 }    
     
